@@ -19,6 +19,10 @@ Un agente registra una incidencia describiéndola con sus propias palabras. A pa
 
 Tiempo de proceso por incidencia: **2–3 segundos**.
 
+![Flujo de alta de incidencia con clasificación por IA y escalado](capturas/03-flujo-alta-incidencia_3.png)
+
+*Flujo 1: el bucle procesa la respuesta del modelo, actualiza la incidencia y evalúa si procede escalarla.*
+
 ---
 
 ## Arquitectura
@@ -41,6 +45,10 @@ Tiempo de proceso por incidencia: **2–3 segundos**.
 - **Flujo 1 — `Alta de incidencia`**: clasificación por IA, actualización del registro y escalado condicional a Teams
 - **Flujo 2 — `Consulta de incidencias`**: asistente conversacional sobre Teams que consulta Dataverse y responde con IA
 - **Panel de Power BI** con 4 visualizaciones y medida DAX, conectado en vivo a Dataverse
+
+![Aviso de escalado recibido en Microsoft Teams](capturas/05-teams-escalado-supervisor_3.png)
+
+*Aviso automático al supervisor cuando la IA clasifica la incidencia como prioridad Alta.*
 
 ---
 
@@ -86,6 +94,14 @@ Total incidencias = COUNTROWS(cr3f3_incidencias)
 
 ---
 
+## Panel analítico
+
+![Panel de incidencias en Power BI](capturas/07-powerbi-panel_3.png)
+
+*Panel publicado en el servicio de Power BI, conectado en vivo a Dataverse. Los cuatro gráficos comparten modelo, de modo que al seleccionar una categoría el resto se filtra en consecuencia.*
+
+---
+
 ## Verificación
 
 | Descripción de la incidencia | Esperado | Resultado |
@@ -94,6 +110,8 @@ Total incidencias = COUNTROWS(cr3f3_incidencias)
 | Pitido intermitente sin pérdida de función | Avería / Baja | Correcto |
 | Petición de cambio de cita | Otro / Baja | Correcto |
 | Pérdida total de audición, cita médica inminente | Avería / Alta + escalado | Correcto |
+
+El resto de evidencias (tablas de Dataverse, formulario, historial de ejecuciones, asistente conversacional y agente de Copilot Studio) están en [`capturas/`](capturas/).
 
 ---
 
