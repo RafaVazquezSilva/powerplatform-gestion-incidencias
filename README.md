@@ -133,7 +133,7 @@ Este es el **primer caso de uso** de tres previstos sobre la misma arquitectura,
 
 ## Autor
 
-**José Rafael Vázquez Silva** — Especialista en automatización con IA
+**José Rafael Vázquez Silva** — Automatización de procesos con IA · Power Platform · Azure OpenAI
 [GitHub](https://github.com/RafaVazquezSilva)
 
 *Todos los datos, nombres de clientes y marcas empleados en este proyecto son ficticios y fueron creados exclusivamente con fines de demostración.*
