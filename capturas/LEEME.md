@@ -13,3 +13,7 @@ Evidencias de que cada componente fue construido y ejecutado en un entorno real.
 | `07-powerbi-panel_3.png` | Panel analítico publicado en el servicio de Power BI |
 | `08-copilotstudio-mcp-conectado_3.png` | Agente con el servidor MCP de Dataverse conectado |
 | `09-copilotstudio-error-creditos_3.png` | Bloqueo por falta de créditos de Copilot |
+
+## Fase 2
+
+Las 29 capturas de la Fase 2 (Azure AI Search, búsqueda híbrida, flujos actualizados, evaluación y respuestas del asistente) están en [`fase2/`](fase2/), con su propio índice.
