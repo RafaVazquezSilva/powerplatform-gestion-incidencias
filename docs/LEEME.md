@@ -18,6 +18,6 @@ Archivos:
 - `Memoria_Tecnica_Gestion_Incidencias_Fases1y2.pdf` — versión para lectura y descarga
 - `Memoria_Tecnica_Gestion_Incidencias_Fases1y2.docx` — versión editable
 
-## Memoria de la Fase 1 (histórica)
+## Memoria de la Fase 1
 
-- `Documentacion_Proyecto_Incidencias_AudioVital.pdf` / `.docx` — memoria original de 16 páginas, solo Fase 1. Se conserva como referencia; afirma que la rama de escalado cambiaba el Estado a *Escalada*, lo que la Fase 2 demostró incorrecto y corrigió.
+La memoria original de 16 páginas (solo Fase 1) queda sustituida por este documento unificado. Afirmaba que la rama de escalado cambiaba el Estado a *Escalada*; la Fase 2 demostró que no era así y lo corrigió (ver sección «Evolución de la Fase 1 a la Fase 2»).
