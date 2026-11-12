@@ -17,3 +17,7 @@ Evidencias de que cada componente fue construido y ejecutado en un entorno real.
 ## Fase 2
 
 Las 29 capturas de la Fase 2 (Azure AI Search, búsqueda híbrida, flujos actualizados, evaluación y respuestas del asistente) están en [`fase2/`](fase2/), con su propio índice.
+
+## Fase 3
+
+Las 45 capturas de la Fase 3 (Key Vault y RBAC, incidente del bucle, costes y Log Analytics, ciclo de vida y Flujos 3 y 4) están en [`fase3/`](fase3/), con su propio índice.
