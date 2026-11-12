@@ -1,11 +1,13 @@
 # Datos ficticios
 
-Conjunto de datos inventado para el proyecto. No procede de ninguna empresa real ni contiene información de personas reales.
+Todos los datos del proyecto son inventados. No proceden de ninguna empresa real ni contienen información de personas reales.
 
-`Dataset_Ficticio_Incidencias.xlsx` contiene tres hojas:
+Viven en tres tablas de Dataverse:
 
-- **Clientes** — 10 clientes ficticios con su centro asociado
-- **Productos_Servicios** — 8 audífonos y servicios del catálogo
-- **Incidencias** — incidencias de ejemplo con fechas y estado
+- **Clientes** — clientes ficticios con su centro asociado
+- **Productos_Servicios** — audífonos y servicios del catálogo
+- **Incidencias** — tabla principal (código `INC-0000`, tipo, prioridad, estado, escalado, canal, descripción, fechas, resolución, autor y propietario)
 
-Estos datos se cargaron en las tablas de Dataverse que alimentan todo el circuito.
+Las incidencias usadas para medir la clasificación (45 descripciones con su resultado esperado) están en [`../evaluacion/`](../evaluacion/), en CSV listo para *Importar desde CSV* en Dataverse y en Excel con los resultados.
+
+Los valores internos de las columnas de opción (por ejemplo, Estado *Escalada* = `610150002`) están en las memorias técnicas de [`../docs/`](../docs/).
